@@ -1,4 +1,7 @@
-type Props = { title: string; description: string };
+type Props = {
+  title: string;
+  description: string; // ✅ This matches the data
+};
 
 const FeatureCard = ({ title, description }: Props) => (
   <div className="border p-6 rounded shadow hover:shadow-lg transition">
